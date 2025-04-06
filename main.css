@@ -1,0 +1,101 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+
+    background-image: url(https://img.freepik.com/free-photo/pastel-yellow-vignette-concrete-textured-background_53876-124561.jpg?t=st=1743323878~exp=1743327478~hmac=a26c5fefb6f79d74208ac25225c07c3deb2db0bfe47655d185cb93cade48069a&w=1060);
+}
+
+.name{
+    text-align: center;
+
+    font-size: 130px;
+
+    letter-spacing: 2px;
+
+    margin-top: 0px;
+
+    height: 10px;
+
+}
+
+.gazeta{
+
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr auto;
+
+    height: 1410px;
+    
+}
+.garden{
+    border: solid 2px;
+    text-align: center;
+
+    font-size: 60px;
+
+}
+.news{
+    border: solid 2px;
+    text-align: center;
+
+    font-size: 60px;
+}
+
+.SodG{
+
+    font-family: "Pacifico";
+    grid-row-start: 100px;
+
+    border: solid 2px;
+
+    margin-top: 0px;
+
+    font-size: 30px;
+
+
+}
+.SodN{
+
+    grid-row-start: 5fr;
+
+    border: solid 2px;
+    margin-top: 0px;
+
+    font-size: 30px;
+
+
+}
+.Sve{
+
+    
+    font-size: 70px;
+    border: solid 2px;
+    grid-column: 1px/3px;
+
+    height: 200px;
+}
+
+
+.Gazeta2{
+
+    
+
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px 200px;
+
+
+}
+
+.Sve1{
+
+    grid-row-start: 2;
+    font-size: 70px;
+}
